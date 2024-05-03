@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form method="post">
+<div>
+<span> Nome: </span> <input type ='text' id = 'nome' name='nome' placeholder="nome" required = 'true'/> 
+</div>
+    
+<div>
+<input type ='email' name='email' id='email' placeholder="E-MAIL"/>
+</div>
+ 
+
+<div>
+<input type='radio' id='tipo' name='tipo' value='cliente'>Cliente
+</div>  
+
+<div>
+<input type='radio' id='tipo' name='tipo' value='fornecedor'>Fornecedor
+</div> 
+
+<div>
+Interesse:
+<input type='checkbox' id='interesse' name='interesse' value='consultoria'/>Consultoria
+<input type='checkbox' id='interesse' name='interesse' value='orcamento'/>Orçamento
+<input type='checkbox' id='interesse' name='interrese' value='falar'/>Falar com nossos consultores
+</div>
+
+<div>
+ <select id='estado' name='estado'>
+    <option> SELECIONE</option>
+    <option value='RJ'>Rio de Janeiro</option>
+    <option value='ES'>Espírito Santo</option>
+    <option value='MG'>Minas Gerais</option>
+    <option value='SP'>São Paulo</option>
+ </select>   
+</div>
+<div>
+    <label>MENSAGEM</label>
+    <textarea id='mensagem' name="mensagem" placeholder='MENSAGEM'></textarea>
+</div>
+
+
+
+<div>
+<input type='submit' value='Enviar'/>
+</div>
+
+</body>
+</html>
